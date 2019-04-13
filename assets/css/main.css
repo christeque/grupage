@@ -1487,7 +1487,7 @@ body {
 }
 
 body {
-    background: #fff;
+    background: #FFF;
 }
 
 body.is-loading *,
@@ -1506,11 +1506,14 @@ body.is-loading *:after {
 
 /* Type */
 
+
+/* cambio de color de de letra parte de opciones diseño desarrollo y soporte*/
+
 body,
 input,
 select,
 textarea {
-    color: #9a9a9a;
+    color: black;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size: 13pt;
     font-weight: 300;
@@ -1642,7 +1645,7 @@ sup {
 }
 
 blockquote {
-    border-left: solid 4px #dbdbdb;
+    border-left: solid 2px #dbdbdb;
     font-style: italic;
     margin: 0 0 2em 0;
     padding: 0.5em 0 0.5em 2em;
@@ -1694,6 +1697,9 @@ hr.major {
     text-align: right;
 }
 
+
+/* parte de header donde aparece diseño de pagina web */
+
 .inner {
     max-width: 75em;
     margin: 0 auto;
@@ -1714,9 +1720,14 @@ hr.major {
 
 /* Section/Article */
 
+
+/* cambio de color parte de abajo colaboradores parte nombrada diseño */
+
 section.special,
 article.special {
     text-align: center;
+    background-color: #ebf0f6;
+    color: black;
 }
 
 section.special article,
@@ -1750,17 +1761,20 @@ article.wrapper article header {
     margin: 0;
 }
 
+
+/* cambio de color a todo el fondo de los colaboradores */
+
 section.wrapper.style1,
 article.wrapper.style1 {
-    background: black;
-    color: #bacee6;
+    background-color: #014955;
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
 
 section.wrapper.style1 header h2,
 article.wrapper.style1 header h2 {
-    color: #132238;
+    color: white;
 }
 
 section.wrapper.style1 header p,
@@ -1788,6 +1802,7 @@ article.wrapper.style1 h3 {
     section.wrapper header h2,
     article.wrapper header h2 {
         font-size: 2em;
+        color: white;
     }
     section.wrapper header p,
     article.wrapper header p {
@@ -1831,6 +1846,9 @@ header h6+p {
 
 
 /* Flex */
+
+
+/*Aqui se cambia el color de fondo fuera de los cuadros de las fotos de los colaboradores*/
 
 .flex {
     display: -ms-flexbox;
@@ -2119,6 +2137,9 @@ input[type="radio"]+label:before {
 
 
 /* Box */
+
+
+/* aqui se cambia el color dentro del cuadro donde se encuentran las fotos de los colaboradores */
 
 .box {
     border: solid 5px #dbdbdb;
