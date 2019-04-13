@@ -1760,7 +1760,7 @@ article.wrapper.style1 {
 
 section.wrapper.style1 header h2,
 article.wrapper.style1 header h2 {
-    color: #fff;
+    color: #132238;
 }
 
 section.wrapper.style1 header p,
@@ -2121,9 +2121,10 @@ input[type="radio"]+label:before {
 /* Box */
 
 .box {
-    border: solid 1px #dbdbdb;
-    margin-bottom: 2em;
+    border: solid 5px #dbdbdb;
+    margin-bottom: 2PX;
     padding: 1.5em;
+    background-color: #364E68;
 }
 
 .box> :last-child,
@@ -2139,12 +2140,12 @@ input[type="radio"]+label:before {
 }
 
 .box.person {
-    border: solid 1px rgba(255, 255, 255, 0.25);
+    border: solid 4px rgba(255, 255, 255, 0.25);
     padding: 3em 1.5em;
 }
 
 .box.person h3 {
-    margin: 0;
+    margin: 0px;
 }
 
 .box.person .image {
